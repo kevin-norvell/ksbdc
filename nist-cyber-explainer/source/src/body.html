@@ -1,0 +1,33 @@
+<div id="app">
+<div id="stage" aria-label="Animated explainer: cybersecurity basics for small business, from NIST CSWP 50, presented by the Kentucky SBDC">
+  <div id="bg"><i class="glow g1"></i><i class="glow g2"></i><i class="dots"></i></div>
+  <div id="scenes"></div>
+
+  <!-- persistent chrome -->
+  <div id="bug" class="lockup sm"></div>
+  <div id="src"><span class="src-k">Source</span><span class="src-v"></span></div>
+  <div id="cc"><span></span></div>
+  <div id="wipe"><div class="wipe-in"><span class="wipe-n"></span><span class="wipe-t"></span></div></div>
+</div>
+
+<div id="poster">
+  <button id="bigPlay" type="button" aria-label="Play the explainer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+  <p class="hint"><kbd>Space</kbd> play or pause · <kbd>←</kbd><kbd>→</kbd> seek · <kbd>[</kbd><kbd>]</kbd> chapters · <kbd>F</kbd> full screen · <kbd>C</kbd> captions · <kbd>M</kbd> music</p>
+</div>
+
+<div id="ctrl">
+  <button id="bPrev" type="button" aria-label="Previous chapter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 6v12M18 6.5v11L9.5 12z"/></svg></button>
+  <button id="bPlay" type="button" aria-label="Play"><svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg><svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 5.5h3v13h-3zM13.5 5.5h3v13h-3z"/></svg></button>
+  <button id="bNext" type="button" aria-label="Next chapter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 6v12M6 6.5v11l8.5-5.5z"/></svg></button>
+  <span id="tm">0:00</span>
+  <span id="chap"></span>
+  <div id="scrub" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuenow="0">
+    <div id="track"><i id="fill"></i><div id="ticks"></div><i id="knob"></i></div>
+    <div id="tip"></div>
+  </div>
+  <button id="bMute" type="button" aria-pressed="false" aria-label="Mute music"><svg class="i-snd" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="w" d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg><svg class="i-mute" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path class="w" d="M16 9.5l5 5M21 9.5l-5 5"/></svg></button>
+  <button id="bCC" type="button" aria-pressed="true" aria-label="Captions">CC</button>
+  <button id="bFS" type="button" aria-label="Full screen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+</div>
+<audio id="music" preload="auto"></audio>
+</div>
