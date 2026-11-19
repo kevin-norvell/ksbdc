@@ -1,0 +1,195 @@
+1
+00:00:01,300 --> 00:00:06,649
+This is Coach Connect, the new way clients register with the Kentucky SBDC and book
+
+2
+00:00:06,699 --> 00:00:10,616
+their first coaching appointment, all in one visit.
+
+3
+00:00:10,666 --> 00:00:15,346
+Let’s walk through it as a client, and see what happens behind the scenes.
+
+4
+00:00:15,946 --> 00:00:21,248
+There are four steps: your details, your business, review and consent, and your
+
+5
+00:00:21,298 --> 00:00:23,180
+appointment.
+
+6
+00:00:24,180 --> 00:00:29,087
+Our sample client is Maya Brooks, who runs a catering business in Louisville.
+
+7
+00:00:29,137 --> 00:00:31,725
+Step one is her contact information.
+
+8
+00:00:31,775 --> 00:00:35,801
+Clients who aren’t in business yet just use their home address.
+
+9
+00:00:35,851 --> 00:00:38,042
+Not ready for one-on-one coaching?
+
+10
+00:00:38,092 --> 00:00:42,110
+The banner up top points to the no-cost training calendar.
+
+11
+00:00:42,510 --> 00:00:47,092
+The ZIP code does the routing. The moment it’s typed, the form shows the center that
+
+12
+00:00:47,142 --> 00:00:49,930
+serves her: Louisville.
+
+13
+00:00:50,030 --> 00:00:54,682
+ZIPs outside our map go to the Eastern Kentucky intake team, so nobody hits a dead
+
+14
+00:00:54,732 --> 00:00:56,103
+end.
+
+15
+00:00:56,303 --> 00:01:01,118
+When she clicks Continue, her contact details are saved right away, even if she never
+
+16
+00:01:01,168 --> 00:01:02,840
+finishes.
+
+17
+00:01:03,740 --> 00:01:07,034
+Step two asks where she is in her business journey:
+
+18
+00:01:07,084 --> 00:01:10,459
+starting a business, or already in business.
+
+19
+00:01:10,509 --> 00:01:15,846
+Already in business adds a few fields, and the form requires at least one full-time
+
+20
+00:01:15,896 --> 00:01:18,393
+or part-time employee.
+
+21
+00:01:19,093 --> 00:01:22,240
+Then, in her own words, how we can help.
+
+22
+00:01:23,340 --> 00:01:29,629
+Demographic questions come last. Each offers Prefer not to say, except Sex, which is
+
+23
+00:01:29,679 --> 00:01:34,243
+Male or Female. None of it affects the coaching match.
+
+24
+00:01:35,143 --> 00:01:40,519
+Step three puts every answer on one screen, with a link back to edit.
+
+25
+00:01:40,819 --> 00:01:46,202
+Two boxes are required: the client agreement, and a certification that she’s eligible
+
+26
+00:01:46,252 --> 00:01:49,303
+for taxpayer-funded services.
+
+27
+00:01:49,353 --> 00:01:52,310
+Her signature has to match the name she entered.
+
+28
+00:01:52,360 --> 00:01:55,658
+The SBA mailing permission is optional.
+
+29
+00:01:55,758 --> 00:02:00,809
+Register and choose appointment records her registration in Neoserra.
+
+30
+00:02:01,809 --> 00:02:04,963
+Now she picks a coach from the center that serves her.
+
+31
+00:02:05,013 --> 00:02:08,807
+Louisville shows each coach’s photo and specialties.
+
+32
+00:02:08,857 --> 00:02:13,764
+Maya’s planning a storefront, so Claire Bridges, who lists restaurant and catering
+
+33
+00:02:13,814 --> 00:02:17,391
+operations, is a natural fit.
+
+34
+00:02:17,691 --> 00:02:22,691
+Her choice is saved, and Claire’s Calendly opens right in the page, with Maya’s name
+
+35
+00:02:22,741 --> 00:02:24,878
+and email filled in.
+
+36
+00:02:25,378 --> 00:02:28,184
+She picks a time, and she’s on the calendar.
+
+37
+00:02:28,234 --> 00:02:33,912
+Calendly emails the confirmation, and the booking is noted on her client record.
+
+38
+00:02:34,412 --> 00:02:40,160
+Lexington adds a first-available option, and other centers show a simple list.
+
+39
+00:02:40,260 --> 00:02:44,541
+If the record note can’t be saved, the booking still stands, and the client gets a
+
+40
+00:02:44,591 --> 00:02:46,519
+retry button.
+
+41
+00:02:47,419 --> 00:02:50,413
+So behind the scenes, there are five handoffs.
+
+42
+00:02:50,463 --> 00:02:54,372
+The ZIP picks the center. Continue saves the contact.
+
+43
+00:02:54,422 --> 00:02:58,122
+Register records the client. The coach’s calendar opens.
+
+44
+00:02:58,172 --> 00:03:00,762
+And the booking lands on the record.
+
+45
+00:03:01,762 --> 00:03:06,217
+Registering a client yourself? Start a new registration clears the form for the next
+
+46
+00:03:06,267 --> 00:03:07,835
+person.
+
+47
+00:03:07,935 --> 00:03:16,887
+Clients who get stuck can call 1-888-414-7232, weekdays from 8 to 5.
+
+48
+00:03:17,787 --> 00:03:23,163
+Coach Connect. Register, match, and book, all in one visit.
+
+49
+00:03:23,263 --> 00:03:28,221
+Send clients to register.kentuckysbdc.com.

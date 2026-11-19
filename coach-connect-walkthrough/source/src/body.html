@@ -1,0 +1,107 @@
+<div id="app">
+  <header id="topbar">
+    <div class="tb-brand">
+      <img id="tbLogo" alt="America’s SBDC Kentucky" width="74" height="45">
+      <div class="tb-title"><b>Coach Connect</b><span>Staff walkthrough</span></div>
+    </div>
+    <nav class="tb-tabs" role="tablist" aria-label="Walkthrough mode">
+      <button role="tab" id="tabWatch" aria-selected="true" aria-controls="watch">__ICON_play__<span>Watch the tour</span></button>
+      <button role="tab" id="tabTry" aria-selected="false" aria-controls="try">__ICON_wand__<span>Try it yourself</span></button>
+    </nav>
+    <div class="tb-note">__ICON_lock__<span>Demo copy. Nothing you see or type is sent anywhere.</span></div>
+  </header>
+
+  <section id="watch" role="tabpanel" aria-labelledby="tabWatch">
+    <div id="viewport">
+      <div id="stage" aria-hidden="true">
+        <div class="st-bg"></div>
+        <div id="browser">
+          <div class="chrome">
+            <span class="dots"><i></i><i></i><i></i></span>
+            <div class="url">__ICON_lock__<span id="urlText">register.kentuckysbdc.com</span><b class="caret" id="urlCaret"></b></div>
+            <span class="demo-chip">Demo copy</span>
+          </div>
+          <div class="bview" id="bview">
+            <div id="page"><div id="hlLayer"></div></div>
+            <div class="loadbar" id="loadbar"></div>
+          </div>
+        </div>
+        <aside id="rail">
+          <div class="rail-head" id="railHead"></div>
+          <div class="rail-client" id="railClient">
+            <div class="avatar">MB</div>
+            <div><b>Maya Brooks</b><span>Brooks Street Kitchen</span><span>Catering · Louisville, KY 40202</span></div>
+            <em>Fictional sample client</em>
+          </div>
+          <div class="rail-log">
+            <div class="rail-log-title">__ICON_eye__ Behind the scenes</div>
+            <ol id="railLog"></ol>
+          </div>
+        </aside>
+        <div id="overlays"></div>
+        <div id="captions"><div class="cap" id="capText"></div></div>
+      </div>
+
+      <div id="poster">
+        <button id="bigPlay" aria-label="Play the walkthrough">__ICON_play__</button>
+        <p class="poster-hint">Narrated · 3½ minutes · Press <kbd>C</kbd> for captions, <kbd>M</kbd> to mute</p>
+      </div>
+
+      <div id="endcta" hidden>
+        <p>Ready to click through it yourself?</p>
+        <div class="endcta-row">
+          <button class="btn-primary" id="ctaTry">__ICON_wand__ Try it yourself</button>
+          <button class="btn-ghost" id="ctaReplay">__ICON_restart__ Watch again</button>
+        </div>
+      </div>
+
+      <div id="ctrl">
+        <div id="scrub" role="slider" tabindex="0" aria-label="Seek" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0">
+          <div id="track"><div id="ticks"></div><div id="fill"></div><div id="knob"></div></div>
+          <div id="tip"></div>
+        </div>
+        <div class="ctrl-row">
+          <button id="bPrev" aria-label="Previous chapter">__ICON_prev__</button>
+          <button id="bPlay" aria-label="Play">__ICON_play____ICON_pause__</button>
+          <button id="bNext" aria-label="Next chapter">__ICON_next__</button>
+          <span id="tm">0:00 / 0:00</span>
+          <span id="chap"></span>
+          <span class="grow"></span>
+          <button id="bMute" aria-label="Mute" aria-pressed="false">__ICON_vol____ICON_mute__</button>
+          <button id="bCC" aria-label="Captions" aria-pressed="true">__ICON_cc__</button>
+          <button id="bFS" aria-label="Full screen">__ICON_fs__</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="try" role="tabpanel" aria-labelledby="tabTry" hidden>
+    <div class="try-wrap">
+      <div class="try-browser">
+        <div class="chrome">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <div class="url">__ICON_lock__<span>register.kentuckysbdc.com</span></div>
+          <span class="demo-chip">Demo copy</span>
+        </div>
+        <div class="try-view" id="tryView"></div>
+      </div>
+      <aside class="try-panel" aria-label="Behind the scenes">
+        <div class="tp-head">
+          <span class="tp-eyebrow">__ICON_eye__ Behind the scenes</span>
+          <h2>What the live form does</h2>
+          <p>Fill in the form on the left. Each time you take a step, this panel explains what happens in the real Coach Connect form.</p>
+        </div>
+        <div class="tp-tools">
+          <button class="tp-btn" id="tpFill">__ICON_wand__ Fill in the sample client</button>
+          <button class="tp-btn ghost" id="tpReset">__ICON_restart__ Start over</button>
+        </div>
+        <div class="tp-zips">
+          <span>Try a ZIP code:</span>
+          <div id="tpZips"></div>
+        </div>
+        <ol class="tp-log" id="tpLog" aria-live="polite"></ol>
+        <p class="tp-foot">__ICON_lock__<span>This is a copy for training. Nothing is saved or sent, and no appointment is booked. The real form is at <b>register.kentuckysbdc.com</b>.</span></p>
+      </aside>
+    </div>
+  </section>
+</div>
